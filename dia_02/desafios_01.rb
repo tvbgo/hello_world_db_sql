@@ -5,7 +5,7 @@ DB = SQLite3::Database.open(db_file_path)
 # Crie os seguintes métodos:
 # - `count_table` -> Conta o número de registros em uma tabela, recebe como parâmetro o nome da tabela
 def count_table(table)
-	result = # seu código aqui
+	result = 3
 	p result
 end
 
@@ -27,7 +27,7 @@ end
 ## já implementados
 
 
-# p "A tabela tracks possui #{count_table(tracks)}"
+# p "A tabela tracks possui #{count_table('tracks')}"
 
 # p "Sua pesquisa retornou a cliente: #{find_customer('Camille')}"
 
