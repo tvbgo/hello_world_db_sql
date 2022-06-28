@@ -1,5 +1,6 @@
 require 'sqlite3'
-DB = SQLite3::Database.new("../dia_01/chinook.db")
+db_file_path = File.join(File.dirname(__FILE__), "./chinook.db")
+DB = SQLite3::Database.open(db_file_path)
 
 # Crie os seguintes métodos:
 # - `count_table` -> Conta o número de registros em uma tabela, recebe como parâmetro o nome da tabela
