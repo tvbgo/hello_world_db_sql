@@ -38,7 +38,7 @@ class Artist
 	# 	- Update
 
 	def self.update(artist)
-		DB.execute("UPDATE artists SET name = ? WHERE id = ?", artist.name, artist.id)
+		DB.execute("UPDATE artists SET name = ? WHERE artistId = ?", artist.name, artist.id)
 	end
 
 	# 	- Destroy

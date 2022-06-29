@@ -63,7 +63,8 @@ def actions
       	puts "---------------------------------------"
         puts "Qual o ID para deletar?"
         @id = gets.chomp.to_i
-        if Artist.destroy(@id)
+        artist = Artist.find(@id)
+        if Artist.destroy(artist)
         	puts "Removido com sucesso"
         else
         	puts "Não funcionou..."
