@@ -5,5 +5,5 @@ require "pry-byebug"
 require_relative "config/application"
 
 get "/" do
-  "Hello Stefanny!"
+  "Hello world!"
 end

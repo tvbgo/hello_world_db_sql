@@ -28,7 +28,7 @@ Hoje vamos criar o banco de dados para uma aplicação clone do Mercado Livre. A
 	- Title
 	- Description
 	- Stars
-**Lembre-se da convenção, nome da tabela no plural, model no singular, coluna snake_case**
+**Lembre-se da convenção, nome da tabela no plural, model no singular CamelCase, coluna snake_case**
 
 2. Agora vamos fazer as Migrations para criarmos as tabelas no nosso BD. Lembre-se do Timestamp e consulte a apresentação para ver a formatação e inserir as colunas depois de gerados os arquivos!
 

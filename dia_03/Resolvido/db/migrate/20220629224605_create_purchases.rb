@@ -1,0 +1,9 @@
+class CreatePurchases < ActiveRecord::Migration[6.0]
+  def change
+    create_table :purchases do |t|
+      t.date      :date
+      t.float     :total_value
+      t.timestamps # `created_at` and `updated_at`
+    end
+  end
+end
