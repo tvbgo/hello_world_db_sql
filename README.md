@@ -13,10 +13,10 @@
 
 ------------------------------
 
-## *Dia 04 - Associations and Validations*
+## *Dia 04 - Associations and Validations / Bancos Não-Relacionais / Parsing e Scraping*
 
 ------------------------------
 
-## *Dia 05 - Bancos Não-Relacionais / Revisando o aprendizado*
+## *Dia 05 - Revisando o aprendizado - Challenge extra*
 
 ------------------------------
